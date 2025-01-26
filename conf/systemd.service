@@ -9,7 +9,7 @@ User=__APP__
 Group=__APP__
 RestartSec=1s
 Restart=on-failure
-Environment=PORT=443
+Environment=PORT=__PORT__
 AmbientCapabilities=CAP_NET_BIND_SERVICE
 WorkingDirectory=__INSTALL_DIR__/
 ExecStart=__INSTALL_DIR__/privtracker
