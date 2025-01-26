@@ -23,8 +23,6 @@ PrivTracker allows you to share torrent files only with your friends and nobody 
 
 **Versi terkirim:** 1.1.5~ynh1
 
-**Demo:** <https://demo.example.com>
-
 ## Tangkapan Layar
 
 ![Tangkapan Layar pada PrivTracker](./doc/screenshots/example.jpg)
@@ -33,7 +31,6 @@ PrivTracker allows you to share torrent files only with your friends and nobody 
 
 - Website aplikasi resmi: <https://privtracker.com/>
 - Dokumentasi pengguna resmi: <https://privtracker.com/>
-- Dokumentasi admin resmi: <https://yunohost.org/packaging_apps>
 - Depot kode aplikasi hulu: <https://github.com/meehow/privtracker>
 - Gudang YunoHost: <https://apps.yunohost.org/app/privtracker>
 - Laporkan bug: <https://github.com/YunoHost-Apps/privtracker_ynh/issues>
