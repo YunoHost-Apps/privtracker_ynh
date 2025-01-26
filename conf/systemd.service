@@ -1,5 +1,5 @@
 [Unit]
-Description=privtracker
+Description=PrivTracker: Private BitTorrent tracker generator
 After=network.target
 Requires=network.target
 
