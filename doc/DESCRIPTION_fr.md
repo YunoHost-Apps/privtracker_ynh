@@ -1,1 +1,1 @@
-Ceci est une fausse description des fonctionalités de l'app
+PrivTracker vous permet de partager des fichiers torrent uniquement avec vos amis et personne d'autre. Contrairement aux trackers publics, il ne partage les pairs qu'au sein d'un groupe utilisant la même URL d'annonce. Il fonctionne vraiment comme un tracker privé, mais peut être généré en un seul clic.

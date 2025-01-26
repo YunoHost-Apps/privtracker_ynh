@@ -1,1 +1,1 @@
-This is a dummy description of this app features
+PrivTracker allows you to share torrent files only with your friends and nobody else. Unlike public trackers, it shares peers only within a group using the same announce URL. It really works like a private tracker, but can be generated with one click of a button.
