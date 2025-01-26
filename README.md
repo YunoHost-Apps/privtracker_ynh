@@ -25,7 +25,7 @@ PrivTracker allows you to share torrent files only with your friends and nobody 
 
 ## Screenshots
 
-![Screenshot of PrivTracker](./doc/screenshots/example.jpg)
+![Screenshot of PrivTracker](./doc/screenshots/screenshot.png)
 
 ## Documentation and resources
 

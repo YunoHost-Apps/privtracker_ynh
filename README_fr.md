@@ -25,7 +25,7 @@ PrivTracker vous permet de partager des fichiers torrent uniquement avec vos ami
 
 ## Captures d’écran
 
-![Capture d’écran de PrivTracker](./doc/screenshots/example.jpg)
+![Capture d’écran de PrivTracker](./doc/screenshots/screenshot.png)
 
 ## Documentations et ressources
 
