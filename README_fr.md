@@ -23,8 +23,6 @@ PrivTracker vous permet de partager des fichiers torrent uniquement avec vos ami
 
 **Version incluse :** 1.1.5~ynh1
 
-**Démo :** <https://demo.example.com>
-
 ## Captures d’écran
 
 ![Capture d’écran de PrivTracker](./doc/screenshots/example.jpg)
@@ -33,7 +31,6 @@ PrivTracker vous permet de partager des fichiers torrent uniquement avec vos ami
 
 - Site officiel de l’app : <https://privtracker.com/>
 - Documentation officielle utilisateur : <https://privtracker.com/>
-- Documentation officielle de l’admin : <https://yunohost.org/packaging_apps>
 - Dépôt de code officiel de l’app : <https://github.com/meehow/privtracker>
 - YunoHost Store : <https://apps.yunohost.org/app/privtracker>
 - Signaler un bug : <https://github.com/YunoHost-Apps/privtracker_ynh/issues>

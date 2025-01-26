@@ -23,8 +23,6 @@ PrivTracker allows you to share torrent files only with your friends and nobody 
 
 **分发版本：** 1.1.5~ynh1
 
-**演示：** <https://demo.example.com>
-
 ## 截图
 
 ![PrivTracker 的截图](./doc/screenshots/example.jpg)
@@ -33,7 +31,6 @@ PrivTracker allows you to share torrent files only with your friends and nobody 
 
 - 官方应用网站： <https://privtracker.com/>
 - 官方用户文档： <https://privtracker.com/>
-- 官方管理文档： <https://yunohost.org/packaging_apps>
 - 上游应用代码库： <https://github.com/meehow/privtracker>
 - YunoHost 商店： <https://apps.yunohost.org/app/privtracker>
 - 报告 bug： <https://github.com/YunoHost-Apps/privtracker_ynh/issues>
