@@ -4,30 +4,11 @@ source _common.sh
 source /usr/share/yunohost/helpers
 
 #=================================================
-# INITIALIZE AND STORE SETTINGS
-#=================================================
-
-# If you need to, you can define custom settings
-# (or remove this section entirely if not relevant for you)
-foo="bar"
-ynh_app_setting_set --key=foo --value=$foo
-
-#=================================================
 # DOWNLOAD, CHECK AND UNPACK SOURCE
 #=================================================
 ynh_script_progression "Setting up source files..."
 
 ynh_setup_source --dest_dir="$install_dir"
-
-#=================================================
-# APP INITIAL CONFIGURATION
-#=================================================
-ynh_script_progression "Adding $app's configuration files..."
-
-ynh_config_add --template="some_config_file" --destination="$install_dir/some_config_file"
-
-chmod 400 "$install_dir/some_config_file"
-chown "$app:$app" "$install_dir/some_config_file"
 
 #=================================================
 # SYSTEM CONFIGURATION

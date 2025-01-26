@@ -16,7 +16,7 @@ license = " AGPL-3.0"
 website = "https://privtracker.com/"
 demo = "https://demo.example.com"
 admindoc = "https://yunohost.org/packaging_apps"
-userdoc = "https://yunohost.org/apps"
+userdoc = "https://privtracker.com/"
 code = "https://github.com/meehow/privtracker"
 
 [integration]
