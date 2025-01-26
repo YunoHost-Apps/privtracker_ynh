@@ -20,7 +20,7 @@ code = "https://github.com/meehow/privtracker"
 [integration]
 yunohost = ">= 12.0.9"
 helpers_version = "2.1"
-architectures = ["amd64", "arm64"]
+architectures = ["amd64", "arm64", "i386"]
 multi_instance = true
 
 ldap = false
@@ -47,7 +47,10 @@ ram.runtime = "50M"
     amd64.sha256 = "66ce6e0e20980052911b27d9e15b48aa373a4ae74ea348e09674ad49541b66fb"
     arm64.url = "https://github.com/meehow/privtracker/releases/download/v1.1.5/privtracker_Linux_arm64.tar.gz"
     arm64.sha256 = "01ceb462f3e966ad73387df787479b6cb63f3de3f72076cd2f70cc835ca11ece"
-    # autoupdate.strategy = "latest_github_tag"
+    i386.url = "https://github.com/meehow/privtracker/releases/download/v1.1.5/privtracker_Linux_i386.tar.gz"
+    i386.sha256 = "9ca35e29011bb617562a21f438d719329292436385e34cc3096942e6cdfd6fc9"
+
+        # autoupdate.strategy = "latest_github_tag"
 
     [resources.system_user]
 
