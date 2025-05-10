@@ -7,7 +7,7 @@ name = "PrivTracker"
 description.en = "Private BitTorrent tracker generator"
 description.fr = "Générateur de tracker BitTorrent privé"
 
-version = "1.1.5~ynh1"
+version = "1.2.2~ynh1"
 
 maintainers = ["eric_G"]
 
@@ -43,14 +43,17 @@ ram.runtime = "40M"
 
     [resources.sources.main]
     in_subdir = false
-    amd64.url = "https://github.com/meehow/privtracker/releases/download/v1.1.5/privtracker_Linux_x86_64.tar.gz"
-    amd64.sha256 = "66ce6e0e20980052911b27d9e15b48aa373a4ae74ea348e09674ad49541b66fb"
-    arm64.url = "https://github.com/meehow/privtracker/releases/download/v1.1.5/privtracker_Linux_arm64.tar.gz"
-    arm64.sha256 = "01ceb462f3e966ad73387df787479b6cb63f3de3f72076cd2f70cc835ca11ece"
-    i386.url = "https://github.com/meehow/privtracker/releases/download/v1.1.5/privtracker_Linux_i386.tar.gz"
-    i386.sha256 = "9ca35e29011bb617562a21f438d719329292436385e34cc3096942e6cdfd6fc9"
+    amd64.url = "https://github.com/meehow/privtracker/releases/download/1.2.2/privtracker_Linux_x86_64.tar.gz"
+    amd64.sha256 = "008931b0e4e318935c622633ec6a80b04ef1130efdc1babe84fda617dcf15ad1"
+    arm64.url = "https://github.com/meehow/privtracker/releases/download/1.2.2/privtracker_Linux_arm64.tar.gz"
+    arm64.sha256 = "7eb4ab12794d0da14d68bb9f7202f9378bffa81d71ee4c3a08aeecd39738914d"
+    i386.url = "https://github.com/meehow/privtracker/releases/download/1.2.2/privtracker_Linux_i386.tar.gz"
+    i386.sha256 = "8e7d4c44dfacecf2b80a29645d3a087efeb3a85830e2660f0ccbc21064a06296"
 
-        # autoupdate.strategy = "latest_github_tag"
+    autoupdate.strategy = "latest_github_release"
+    autoupdate.asset.amd64 = "^privtracker_Linux_x86_64.tar.gz"
+    autoupdate.asset.arm64 = "^privtracker_Linux_arm64.tar.gz"
+    autoupdate.asset.i386 = "^privtracker_Linux_i386.tar.gz"
 
     [resources.system_user]
 
