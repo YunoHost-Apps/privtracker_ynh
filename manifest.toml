@@ -14,6 +14,7 @@ maintainers = ["eric_G"]
 [upstream]
 license = " AGPL-3.0"
 website = "https://privtracker.com/"
+demo = "https://privtracker.com/"
 userdoc = "https://privtracker.com/"
 code = "https://github.com/meehow/privtracker"
 
